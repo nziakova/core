@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:body>
+    <h:outputText value="EL Sample"></h:outputText>
+    <br/>
+    <table border="1">
+        <tr>
+            <td>EL name</td>
+            <td>Underlying class</td>
+            <td width="400px">Value</td>
+        </tr>
+        <tr>
+            <td>\#{application}</td>
+            <td>java.lang.Object</td>
+            <td>#{application}</td>
+        </tr>
+        <tr>
+            <td>\#{requestScope}</td>
+            <td>java.util.Map&lt;String, Object&gt;</td>
+            <td>#{requestScope}</td>
+        </tr>
+    </table>
+
+    <br/>
+</h:body>
+
+
+</html>
